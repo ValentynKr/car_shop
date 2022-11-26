@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+	<Resource name="jdbc/task12" auth="Container" type="javax.sql.DataSource"
+	maxTotal="10" maxIdle="5" maxWaitMillis="10000"
+	username="root" password="1234" driverClassName="com.mysql.cj.jdbc.Driver"
+	url="jdbc:mysql://localhost:3306/mydb?sslMode=DISABLED&amp;serverTimezone=EET"/>
+</Context>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<security>
+    <constraint>
+        <url-pattern>/car_shop_war_exploded/jsp/orders.jsp</url-pattern>
+        <role>admin</role>
+        <role>user</role>
+    </constraint>
+    <constraint>
+        <url-pattern>/car_shop_war_exploded/profile</url-pattern>
+        <role>admin</role>
+        <role>user</role>
+    </constraint>
+    <constraint>
+        <url-pattern>/car_shop_war_exploded/profile.jsp</url-pattern>
+        <role>admin</role>
+        <role>user</role>
+    </constraint>
+    <constraint>
+        <url-pattern>/car_shop_war_exploded/jsp/successfulRegistration.jsp</url-pattern>
+        <role>admin</role>
+        <role>user</role>
+    </constraint>
+    <constraint>
+        <url-pattern>/car_shop_war_exploded/jsp/admin.jsp</url-pattern>
+        <role>admin</role>
+    </constraint>
+    <constraint>
+        <url-pattern>/car_shop_war_exploded/jsp/accessDenied.jsp</url-pattern>
+        <role>admin</role>
+        <role>user</role>
+    </constraint>
+    <constraint>
+        <url-pattern>/car_shop_war_exploded/user-images/.*</url-pattern>
+        <role>admin</role>
+        <role>user</role>
+    </constraint>
+</security>
